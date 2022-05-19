@@ -10,6 +10,9 @@ import HomeStreamer from "./pages/homeStreamer/HomeStreamer";
 import ActualizarEvento from "./pages/streamer/updateEvent/UpdateEvent"
 import 'bootstrap/dist/js/bootstrap.min.js'
 
+import HomeColaborador from "./pages/homeColaborador/HomeColaborador"
+import Colaborador from "./pages/colaborador/Colaborador"
+
 function App() {
   return (
     <>
@@ -24,6 +27,8 @@ function App() {
           <Route path='/streamer' element={<HomeStreamer />}/>
           <Route path='/streamer/eventos' element={<AdminEventos />}/>
           <Route path='/streamer/eventos/actualizar' element={<ActualizarEvento />}/>
+          <Route path='/colaborador' element={<HomeColaborador />}/>
+          <Route path='/colaborador/streamers' element={<Colaborador />}/>
         </Routes>
       </Router>
     </>

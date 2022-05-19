@@ -37,7 +37,7 @@ function Login() {
             <div className="loginfrom">
             <h1 className="iniciotitel">Iniciar sesión </h1>
                 <input onChange={(e) => setCorreo(e.target.value)} type="email" id="email" className="form-control inputlogin" placeholder="Email" aria-describedby="emailHelp" />
-                <input onChange={(e) => setCorreo(e.target.value)} type="password" id="contrasena" placeholder="Contraseña" className="form-control inputlogin" />
+                <input onChange={(e) => setPassword(e.target.value)} type="password" id="contrasena" placeholder="Contraseña" className="form-control inputlogin" />
 
                 <div className=".container row">
                     <div className="col-6 contenedor" onclick="tipoDeCuenta('streamer')">
