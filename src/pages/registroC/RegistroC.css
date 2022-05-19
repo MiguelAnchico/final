@@ -8,6 +8,7 @@
          url("/assets/font/Inter-Bold.woff") format("woff");
 }
 
+
 @font-face {
     font-family: 'Inter';
     font-style:  normal;
@@ -17,6 +18,14 @@
          url("/assets/font/Inter-Light.woff") format("woff");
 }
 */
+
+@font-face{
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/assets/font/Int")
+}
 
 
 .registroC header{
