@@ -4,10 +4,6 @@
     padding-right: 10%;
 }
 
-.text{
-    font-size: 25px;
-}
-
 .presentation{
     margin: 0;
     padding: 0;
@@ -17,17 +13,12 @@
     width: 100%;
     height: 400px;
     background-position-y: 20%;
-    
+    background-image: url(../../images/background-home.jpg);
+    /*background-image: url(../assets/img/collection/perfil/dafault_banner.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
 }
-.funcionaporfa{
-    display:flex;
 
-}
-.funcionaporfa2{
-    margin-bottom:15px;
-}
 .foto{
     width: 200px;
     height: 200px;
@@ -52,4 +43,11 @@
 .buttoninciar{
     width: 80%;
     margin-top: 10px;
+}
+
+.centrar{
+    margin-top: 400px;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, 0, -25%);
 }
