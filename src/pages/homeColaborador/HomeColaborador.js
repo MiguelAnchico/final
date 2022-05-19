@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navar from '../../components/nav/Navar'
+import NavarColaborador from '../../components/nav/NavarColaborador'
 import ComprobarLogin from '../../components/comprobarLogin/ComprobarLogin'
 
 function Login() {
@@ -8,7 +9,7 @@ function Login() {
 return(
     <div className="HomeStreamer">
     <ComprobarLogin />
-    <Navar/>
+    <NavarColaborador/>
 
 
     <a href="/colaborador"><button class=" btn btn-primary btn-lg botonlarge" onclick="">Administrar Streamers</button></a>

@@ -12,6 +12,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 import HomeColaborador from "./pages/homeColaborador/HomeColaborador"
 import Colaborador from "./pages/colaborador/Colaborador"
+import Buscador from "./pages/buscador/Buscador"
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/streamer/eventos/actualizar' element={<ActualizarEvento />}/>
           <Route path='/colaborador' element={<HomeColaborador />}/>
           <Route path='/colaborador/streamers' element={<Colaborador />}/>
+          <Route path='/buscar/streamer' element={<Buscador />}/>
         </Routes>
       </Router>
     </>
