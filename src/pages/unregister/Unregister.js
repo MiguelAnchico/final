@@ -8,6 +8,7 @@ function Unregister(){
 
     return(
         <div className="home">
+
             <section className="image-section">
                 <h1>Evoluciona la manera de conectar con tú comunidad</h1>
                 <p>La mejor forma de gestionar todos tus eventos con cada uno de tus seguidores</p>

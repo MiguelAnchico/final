@@ -3,11 +3,14 @@ import UpdateTableEvent from '../../../components/tableUpdateEvent/TableUpdateEv
 import UpdateEventForm from '../../../components/UpdateEventForm/UpdateEventForm'
 import ComprobarLogin from '../../../components/comprobarLogin/ComprobarLogin'
 
+import Navar from '../../../components/nav/Navar'
+
 function UpdateEvent() {
 
     return(
         <div>
             <ComprobarLogin />
+            <Navar />
             <div className="row">
                 <UpdateTableEvent />
                 <UpdateEventForm />
