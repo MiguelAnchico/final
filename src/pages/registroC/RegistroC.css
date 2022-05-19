@@ -1,0 +1,122 @@
+/*
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/assets/font/Inter-Bold.woff2") format("woff2"),
+         url("/assets/font/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("/assets/font/Inter-Light.woff2") format("woff2"),
+         url("/assets/font/Inter-Light.woff") format("woff");
+}
+*/
+
+
+.registroC header{
+    margin: 0;
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    border: 0;
+}
+
+.registroC .color{
+    color: #0D6CF7;
+}
+
+.registroC .imgH{
+    max-width: 100vh;
+    width: 40px;
+    margin-left: 1rem;
+}
+
+.registroC .registrate{
+    max-width: 100vmax;
+    width: 450px;
+    height: 50px;
+    background: #212529;
+    border-radius: 9px 9px 0px 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0, -50%);
+}
+
+.registroC .centrar{
+    position: absolute;
+    text-align: center;
+}
+
+.registroC .registro{
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 100vmax;
+    width: 450px;
+    height: 600px;
+    background: #FEFEFE;
+    border-radius: 9px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.registroC h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 44px;
+/* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.registroC h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 58px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #0D6CF7;
+}
+
+.registroC .centrar{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registroC .widthInput{
+    width: 90%;
+    margin-left: 1.5rem;
+}
+
+.registroC .width{
+    width: 60%;
+}
+
+.registroC{
+    margin: 0;
+    font-family: 'Inter';
+    background-image: url('../../images/background-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100vh;
+}
