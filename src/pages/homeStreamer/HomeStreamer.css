@@ -44,3 +44,10 @@
     width: 80%;
     margin-top: 10px;
 }
+
+.centrar{
+    margin-top: 400px;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, 0, -25%);
+}

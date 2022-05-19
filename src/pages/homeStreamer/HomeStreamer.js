@@ -12,8 +12,6 @@ return(
     <Navar/>
 
 
-    <a href="./streamer/eventos"><button class=" btn btn-primary btn-lg botonlarge" onclick="">Administrar Eventos</button></a>
-
     <h2 class="h2pru">Eventos</h2>
     <div class="contenedor">
       <table class="table table-light">
@@ -30,6 +28,8 @@ return(
         <tbody id="personajes">
         </tbody>
       </table>
+
+      <a class="centrar" href="./streamer/eventos"><button class=" btn btn-primary btn-lg botonlarge centrar" onclick="">Administrar Eventos</button></a>
     </div>
 
 
