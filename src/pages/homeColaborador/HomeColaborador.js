@@ -4,7 +4,7 @@ import Navar from '../../components/nav/Navar'
 import NavarColaborador from '../../components/nav/NavarColaborador'
 import ComprobarLogin from '../../components/comprobarLogin/ComprobarLogin'
 
-function Login() {
+function HomeColaborador() {
 
 return(
     <div className="HomeStreamer">
@@ -36,4 +36,4 @@ return(
     </div>
 )
 }
-export default Login;
+export default HomeColaborador;

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Navar from '../../components/nav/Navar'
 import ComprobarLogin from '../../components/comprobarLogin/ComprobarLogin'
 
-function Login() {
+function HomeStreamer() {
 
 return(
     <div className="HomeStreamer">
@@ -12,7 +12,7 @@ return(
     <Navar/>
 
 
-    <a href="/streamer/eventos"><button class=" btn btn-primary btn-lg botonlarge" onclick="">Administrar Eventos</button></a>
+    <a href="./streamer/eventos"><button class=" btn btn-primary btn-lg botonlarge" onclick="">Administrar Eventos</button></a>
 
     <h2 class="h2pru">Eventos</h2>
     <div class="contenedor">
@@ -37,4 +37,4 @@ return(
     </div>
 )
 }
-export default Login;
+export default HomeStreamer;

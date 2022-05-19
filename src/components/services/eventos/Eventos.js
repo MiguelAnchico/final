@@ -38,7 +38,7 @@ function Eventos(props){
             if(err.message == "Request failed with status code 404"){
                 localStorage.setItem("eventos", JSON.stringify([]));
             } else {
-                console.log(err);
+                localStorage.setItem("eventos", JSON.stringify([]));
             }
         });
     }
