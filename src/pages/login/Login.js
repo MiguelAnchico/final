@@ -2,6 +2,7 @@ import React from 'react'
 import "./Login.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import axios from 'axios';
+import NavarCancelar from '../../components/nav/NavarCancelar';
 
 function Login() {
     const [correo, setCorreo] = React.useState("");
@@ -33,6 +34,7 @@ function Login() {
 
     return(
         <form className="login" onSubmit={registrar}>
+            <NavarCancelar/>
             <div className="generaldiv">
             <div className="loginfrom">
             <h1 className="iniciotitel">Iniciar sesión </h1>

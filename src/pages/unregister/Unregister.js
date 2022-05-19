@@ -4,14 +4,19 @@ import './Unregister.css'
 import CardLink from "../../components/cardLink/CardLink";
 import Eventos from "../../components/services/eventos/Eventos";
 
+import Navar from '../../components/nav/Navar'
+import NavarColaborador from '../../components/nav/NavarInicio'
+import NavarInicio from "../../components/nav/NavarInicio";
+
 function Unregister(){
 
     return(
         <div className="home">
+            <NavarInicio/>
 
             <section className="image-section">
-                <h1>Evoluciona la manera de conectar con tú comunidad</h1>
-                <p>La mejor forma de gestionar todos tus eventos con cada uno de tus seguidores</p>
+                <h1 className="titulo">Evoluciona la manera de conectar con tú comunidad</h1>
+                <p className="parrafo">La mejor forma de gestionar todos tus eventos con cada uno de tus seguidores</p>
                 <section className="selection">
                     <CardLink />
                     <CardLink />
