@@ -28,7 +28,8 @@ function NavarInicio() {
                                 <li class="nav-item">
                                     <a class="nav-link active text" aria-current="page" href="./login" onClick={iniciar}>Iniciar Sesión</a>
                                 </li>
-                                <a class="nav-link active text" href="./" onClick={registrarse}>Registrarse</a>
+                                <a class="nav-link active text" href="/registrarse/streamer" onClick={registrarse}>Registrarse coomo Streamer</a>
+                                <a class="nav-link active text" href="./registrarse/colaborador" onClick={registrarse}>Registrarse como Colaborador</a>
                             </ul>
                         </div>
                     </div>
